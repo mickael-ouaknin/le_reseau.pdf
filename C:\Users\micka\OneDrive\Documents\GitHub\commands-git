@@ -1,0 +1,15 @@
+# Cloner un repository
+git clone <https://github.com/mickael-ouaknin/commands-git.git>
+
+#Les 3 commandes de push
+git add .
+git commit -m "<first commit>"
+git push -u origin main
+# Ajouter tous les fichiers modifiés au prochain commit
+git add .
+
+# Créer un commit avec un message
+git commit -m  "first commit"
+
+# Pousser les modifications vers le repository distant>
+git push -u origin <main>
